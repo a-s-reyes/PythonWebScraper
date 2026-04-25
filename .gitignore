@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Tests, type-checkers, coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crawler outputs (default paths from future pipelines)
+*.jsonl
+*.log
+crawl.db
+crawl.db-wal
+crawl.db-shm
+sitemap.xml
+text/
+
+# Personal learning track — kept local, not pushed.
+# Remove this line if you ever want to publish the curriculum.
+plans/
